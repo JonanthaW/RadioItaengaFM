@@ -1,0 +1,54 @@
+.objective {
+  background-color: #fff;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  text-align: center;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.objective h1 {
+  font-size: 1.7vw;
+  color: #911823;
+  font-weight: bolder;
+}
+
+.objective h4 {
+  font-size: 1.2vw;
+  font-size: bold;
+  margin: 1vw 0 1vw 0;
+}
+
+.objective p {
+  font-size: 1.2vw;
+  max-width: 85vw;
+  font-weight: lighter;
+  word-wrap: break-word;
+  word-break: normal;
+  text-align: center;
+}
+
+.objectivebuttons {
+  margin-top: 2vw;
+}
+
+.objectivebuttons button {
+  font-size: 1.1vw;
+  color: #911823;
+  font-weight: bolder;
+  padding: .5vw;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin: 1vw;
+}
+
+.objectivebuttons button::after {
+  display: block;
+  content: "";
+  border-bottom: .2vw solid gray;
+  width: 100%;
+  margin-top: .5vw;
+}

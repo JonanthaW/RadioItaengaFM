@@ -1,0 +1,79 @@
+.survey {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.survey p {
+  background-color: #000;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .5vw 1vw .5vw 1vw;
+  text-align: center;
+}
+
+.survey .surveyquestion {
+  margin-top: 4vw;
+  width: 90vw;
+}
+
+.survey .surveyquestion h2 {
+  font-size: 1.3vw;
+  color: black;
+}
+
+.optioncontent {
+  height: 4vw;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  padding: .5vw;
+  align-items: center;
+  margin: 1vw 0 1vw 0;
+  cursor: pointer;
+}
+
+.optioncontent label {
+  margin-left: 2vw;
+  font-size: 1.2vw;
+  color: black;
+  font-weight: bolder;
+}
+
+.votesurvey {
+  display: flex;
+  justify-content: end;
+}
+
+.votesurvey button {
+  padding: 2vw;
+  margin: 1vw;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  color: #202020;
+  background-color: #c8c8c8;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.votesurvey button:nth-child(2) {
+  background-color: #0c67b7;
+  color: white;
+}
+
+.votesurvey button:nth-child(1):hover {
+  transition: .3s;
+  background-color: #b7b7b7;
+}
+
+.votesurvey button:nth-child(2):hover {
+  transition: .3s;
+  background-color: #1b7cd0;
+}

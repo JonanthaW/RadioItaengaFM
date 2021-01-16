@@ -1,0 +1,172 @@
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+figure img {
+  width: calc(20vw + 100px);
+}
+
+.player {
+  width: 100%;
+  height: 12%;
+  background-color: #62060F;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+ul li i {
+  margin: 2vw 1vw 1vw 1vw;
+  font-size: calc(1vw + 15px);
+  color: #333333;
+  cursor: pointer;
+}
+
+/* Change color to Original when User click or Hover Element*/
+
+#facebook, #email, #youtube, #twitter, #soundcloud, #whatsapp:hover {
+  transition: .1s;
+}
+
+#facebook:hover {
+  color: #040d6a;
+}
+#email:hover {
+  color: #809780;
+}
+#youtube:hover {
+  color: #e30303;
+}
+#twitter:hover {
+  color: #73b8ce;
+}
+#soundcloud:hover {
+  color: #c6830a;
+}
+#whatsapp:hover {
+  color: #0e8716;
+}
+
+.phone {
+  text-align: center;
+}
+
+.phone span {
+  font-size: .8em;
+  color: #4d4d4d;
+  font-weight: bolder;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+address, .information .phone {
+  text-align: center;
+  line-height: 15px;
+  margin: 2vw;
+}
+
+address span span,abbr {
+  font-size: .8em;
+  color: #808080;
+  font-weight: bolder;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.player i {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+#play {
+  display: flex;
+  z-index: 2;
+}
+#pause {
+  display: none;
+  z-index: 2;
+}
+
+.streaming {
+  margin: 20px;
+}
+
+.player h3 {
+  font-size: 1.7vh;
+  color: #d3d3d3;
+}
+.player h2 {
+  font-size: 2vh;
+  color: #d3d3d3;
+  max-width: 70vw;
+}
+
+.controls:hover .volume-block {
+  display: block;
+}
+
+.volume-block {
+  position: absolute;
+  background-color: #62060F;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px;
+  bottom: 50%;
+  display: none;
+  z-index: 1;
+}
+
+.volume-block input::-webkit-slider-thumb, input::-moz-range-thumb {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#volume-control {
+  background-color: white;
+  width: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  figure img {
+    width: 70vw;
+  }
+
+  ul li i {
+    margin: 2vw 1vw 1vw 1vw;
+    font-size: 6vw;
+    color: #333333;
+    cursor: pointer;
+  }
+
+  address, .information .phone {
+    text-align: center;
+    line-height: 15px;
+    margin: 10vw;
+  }
+
+  .volume-block {
+    display: none;
+  }
+}

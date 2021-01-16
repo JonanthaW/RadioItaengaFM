@@ -1,0 +1,51 @@
+.app {
+  width: 100%;
+  background-image: url("../../../assets/img/app/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .appimage {
+  display: flex;
+  margin-top: -2%;
+}
+
+.app .appimage img {
+  width: 13vw;
+}
+
+.app .infoapp {
+  display: grid;
+  align-items: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-left: 2px solid white;
+  height: 8vw;
+  padding-left: 2vw;
+}
+
+.app .infoapp h3 {
+  font-size: 2.5vw;
+  color: white;
+  font-weight: bold;
+}
+
+.app .infoapp p {
+  max-width: 40vw;
+  font-size: 1vw;
+  color: white;
+}
+
+.app .downloadpp {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .downloadpp a img {
+  width: 10vw;
+}

@@ -1,0 +1,41 @@
+.announce {
+  background-color: #fff;
+  width: 100%;
+  padding: 2vw 0 2vw 0;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article div h3 {
+  font-size: 2vw;
+  color:  #911823;
+}
+
+article div p {
+  font-size: 1.1vw;
+  max-width: 50vw;
+  margin: 1vw 5vw 0 0;
+}
+
+article img {
+  width: 30vw;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+article div p:nth-child(3) {
+  text-align: end;
+  font-size: 1.1vw;
+  max-width: 50vw;
+  margin: 1vw 5vw 0 0;
+}
+
+article div p:nth-child(3) a {
+  text-decoration: none;
+  color: #131313;
+  border-bottom: .2vw solid #911823;
+}

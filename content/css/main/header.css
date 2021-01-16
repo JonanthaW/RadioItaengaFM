@@ -1,0 +1,103 @@
+/* Content from "news" tab inside Header*/
+
+.news {
+  background-color: #8D1521;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+
+.news ul {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1vw;
+}
+
+.news h2 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  margin: 10px;
+}
+
+.news ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: .9vw;
+  margin: 0 30px 0 0;
+}
+
+
+/* Content from "menu" inside header */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background: #C02425;
+  background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
+  background: linear-gradient(to right, #F0CB35, #C02425);
+}
+
+.menu a img {
+  width: 16vw;
+}
+
+.navigation {
+  margin-top: 1vw;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: "|   ";
+  color: white;
+  font-size: 1.1vw;
+}
+
+.navigation ul li:nth-child(1) {
+  list-style: none;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin: 0 30px 0 0;
+}
+
+.navigation .openplayer {
+  padding: 1.5vw 0 1vw 1vw;
+}
+
+.navigation .openplayer i {
+  font-size: 2vw;
+  color: #fdcc48;
+  border-radius: 50%;
+  border: 2px solid #fdcc48;
+  padding: .9vw;
+  cursor: pointer;
+}
+
+.openplayer {
+  display: flex;
+}
+
+.openplayer .online {
+  font-size: 1.2vw;
+  color: #6a111b;
+  font-weight: bolder;
+  margin-left: 1vw;
+}
+
+.openplayer .online p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
