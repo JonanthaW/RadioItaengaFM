@@ -1,0 +1,21 @@
+.scrolltop {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 2vw 2vw 0;
+}
+
+.scrolltop button {
+  background-color: #9f9f9f30;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+  padding: 1vw 1.2vw 1vw 1.2vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scrolltop button:hover {
+  background-color: #9f9f9f94;
+}
