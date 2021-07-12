@@ -13,5 +13,5 @@ Criei esta webpage como estudo para uma rádio, porém ela nunca viu a luz do di
 
 ### :bulb: Tela da aplicação
 
-![image](https://github.com/JonanthaW/Projeto-RadioItaengaFM/blob/master/assets/example1.jpg)
-![image](https://github.com/JonanthaW/Projeto-RadioItaengaFM/blob/master/assets/example2.jpg)
+![image](https://github.com/JonanthaW/RadioItaengaFM/blob/master/assets/example1.jpg)
+![image](https://github.com/JonanthaW/RadioItaengaFM/blob/master/assets/example2.jpg)
