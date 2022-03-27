@@ -18,6 +18,8 @@ Criei esta webpage como estudo para uma rádio, porém ela nunca viu a luz do di
 
 ### :computer: Baixando o conteúdo:
 
+<p>Feel free to download this repository and use it however you like. </p>
+
 ```bash
-$ git clone https://github.com/JonanthaW/Arduino-Projects.git
+$ git clone https://github.com/JonanthaW/RadioItaengaFM.git
 ```
